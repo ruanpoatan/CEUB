@@ -1,0 +1,41 @@
+.services {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.services h2 {
+  color: #333;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fafafa;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  color: #0288d1;
+}
+
+.card-content p {
+  color: #666;
+}
